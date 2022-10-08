@@ -1,0 +1,24 @@
+heightlimit = 150
+weightlimit = 50
+agelimit = 18
+Bplimit = 120/80
+height = int(input("enter your height in cm"))
+weight = int(input("enter your weight in kg"))
+age = int(input("enter your age in years"))
+Bp = int(input("enter your Bp in mmHg"))
+if height >= heightlimit:
+ if weight >= weightlimit: 
+   print ("you may go on the ride")
+ else:
+    print ("you cannot go on this ride.sorry!!")
+ if age >= agelimit:
+   print ("you may go on the ride")
+ else:
+    print ("you are too young for this ride.sorry!!")
+ if Bp <= Bplimit :
+   print ("you may go on the ride")
+ else:
+       print ("you cannot go on this ride.sorry!!")
+else: 
+    print ("you cannot go on this ride.you are too short.sorry!!")
+    
